@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dante Tsang.</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/trianglify/0.1.5/trianglify.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <section class="bussinesscard">
+        <div class="flip">
+            <div class="front">
+                <div class="top">
+                    <div class="logo"><span class="fat">D</span><span class="skinny">T</span>
+                    </div>
+                </div>
+                <div class="nametroduction">
+                    <div class="name">Dante Tsang</div>
+                    <div class="introduction">Entreprenur and co-founder of AfterShip</div>
+                </div>
+                <div class="contact">
+                    <div class="website">
+                        <span class="ion-earth"></span>
+                        <a href="http://www.dantetsang.com">www.dantetsang.com</a>
+                    </div>
+                    <div class="twitter">
+                        <span class="ion-social-twitter"></span>
+                        <a href="#">@dantetwc</a> 
+                    </div>
+                    <div class="phone ">
+                        <span class="ion-social-linkedin"></span> 
+                        <a href="http://hk.linkedin.com/pub/dante-tsang/20/a/848/">Dante Tsang</a> 
+                    </div>
+                    <div class="email ">
+                        <span class="ion-paper-airplane"></span>
+                        <a href="mailto:dante@dantetsang.com">dante AT dantetsang.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="back"></div>
+            <!--FIXES FONT RENDERING -->
+        </div>
+    </section>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function (b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function () {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = '//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X');
+        ga('send', 'pageview');
+
+        $(function () {
+            var t = new Trianglify();
+            var pattern = t.generate(document.body.clientWidth, document.body.clientHeight);
+            document.body.setAttribute('style', 'background-image: ' + pattern.dataUrl);
+            alert('test');
+        });
+    </script>
+</body>
+
+</html>
