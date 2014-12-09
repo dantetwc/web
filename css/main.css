@@ -111,7 +111,6 @@ textarea {
 }
 
 body, html {
-    -webkit-font-smoothing: 'auto';
   font-family: 'Raleway', sans-serif;
   /*background-image: url(http://imgh.us/bg_1.svg);*/
   -webkit-background-size: cover;
