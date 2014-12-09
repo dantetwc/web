@@ -206,11 +206,7 @@ a:hover {
   font-size: 1.3em;
   border: 3px solid #fff;
   margin-left: .15em;
-  -moz-transform: translateX(0);
-  -ms-transform: translateX(0);
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
-  left: 0;
+  left: 50%;
 }
 
 .flip:hover .front .top {
