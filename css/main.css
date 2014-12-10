@@ -202,11 +202,11 @@ a:hover {
 }
 
 .flip:hover .front .top .logo {
-  margin-top: .28em;
+  margin: .28em;
   font-size: 1.3em;
   border: 3px solid #fff;
   margin-left: .15em;
-  left: 50%;
+  left: 49%;
 }
 
 .flip:hover .front .top {
