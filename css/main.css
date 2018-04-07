@@ -205,8 +205,8 @@ a:hover {
   margin: .28em;
   font-size: 1.3em;
   border: 3px solid #fff;
-  margin-left: .15em;
-  left: 49%;
+  /* margin-left: .15em; */
+  /* left: 0%; */
 }
 
 .flip:hover .front .top {
